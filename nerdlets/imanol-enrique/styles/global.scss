@@ -1,0 +1,80 @@
+/* ------------------- CSS Variables ------------------- */
+#app {
+	--bg-primary: #0f9cb3
+}
+
+/* ------------------- Custom ------------------- */
+li {
+	list-style: none
+}
+
+.h-100vh {
+	height: 100vh
+}
+
+/* ------------------- Components ------------------- */
+#message {
+	min-width: 500px;
+	border-radius: 25px;
+
+	#status {
+		height: 25px;
+		box-shadow: -2px 22px 39px 0px rgba(0,0,0,0.35) inset;
+		-webkit-box-shadow: -2px 22px 39px 0px rgba(0,0,0,0.35) inset;
+		-moz-box-shadow: -2px 22px 39px 0px rgba(0,0,0,0.35) inset;
+	}
+
+	#entry {
+		#quantity {
+			height: 60px;
+			font-style: italic;
+			background-color: transparent;
+			box-shadow: 0px 1px 3px 3px rgba(189,189,189,0.25);
+			-webkit-box-shadow: 0px 1px 3px 3px rgba(189,189,189,0.25);
+			-moz-box-shadow: 0px 1px 3px 3px rgba(189,189,189,0.25);
+
+			&::placeholder {
+				color: rgba(0, 0, 0, .15)
+			}
+		}
+	}
+}
+
+#odometer {
+	padding: 30px;
+
+	.wrapper {
+		width: 400px;
+		height: 200px;
+		background-color: #ffffff;
+		border-top-left-radius: 360px;
+	  border-top-right-radius: 360px;
+
+	  .indicator-wrapper {
+		  left: 10%;
+		  top: 15%;
+		  width: 80%;
+		  height: 85%;
+		  border-top-left-radius: 360px;
+		  border-top-right-radius: 360px;
+		  background-color: #ffffff;
+		  z-index: 2000;
+
+		  &-inner {
+		  	#indicator {
+		  		transition: transform 1s linear;
+		  		transform-origin: bottom center;
+		  	}
+		  }
+	  }
+
+	  .bar {
+	  	transform-origin: bottom center
+	  }
+	}
+
+	.velocity {
+		  color: #61abd7;
+		  font-family: sans-serif;	
+	}
+}

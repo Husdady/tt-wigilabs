@@ -1,0 +1,40 @@
+[
+  {
+    "barColor": "#a6deff",
+    "className": "top-0",
+    "style": {
+      "left": -30,
+      "zIndex": 200,
+      "transform": "rotate(-125deg)",
+      "borderBottom": "20px solid #ffffff"
+    }
+  },
+  {
+    "barColor": "#77c3f0",
+    "className": "end-0",
+    "style": {
+      "top": -25,
+      "zIndex": 150,
+      "transform": "rotate(-90deg)",
+      "borderBottom": "20px solid #ffffff"
+    }
+  },
+  {
+    "barColor": "#61abd7",
+    "className": "start-0",
+    "style": {
+      "top": -25,
+      "zIndex": 100,
+      "transform": "rotate(-35deg)",
+      "borderBottom": "20px solid #ffffff"
+    }
+  },
+  {
+    "barColor": "#0176be",
+    "className": "top-0 end-0",
+    "style": {
+      "zIndex": 0,
+      "transform": "rotate(30deg)"
+    }
+  }
+]

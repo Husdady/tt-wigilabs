@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Good",
+		"style": {
+    	"left": -20,
+			"bottom": 100
+		}
+	},
+	{
+		"name": "Average",
+		"style": {
+    	"top": 30,
+			"left": 80
+		}
+	},
+	{
+		"name": "Bad",
+		"style": {
+    	"top": 30,
+			"right": 100
+		}
+	},
+	{
+		"name": "Very Bad",
+		"style": {
+    	"bottom": 100,
+			"right": -30
+		}
+	}
+]
